@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cart {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.banner {
+    text-align: center;
+    background-color: #ffdb58;
+    padding: 20px 0;
+}
+
+h1 {
+    color: #333;
+}
+
+.food-categories {
+    display: flex;
+    justify-content: center;
+}
+
+.category {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.category h2 {
+    color: #333;
+}
+
+.food-item {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.food-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.discount {
+    background-color: #ff5722;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.blink {
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.delivery-boy {
+    text-align: center;
+    padding: 20px;
+}
+
+.delivery-boy img {
+    width: 120px;
+}
+
+/* Add your own styles and customizations as needed */
